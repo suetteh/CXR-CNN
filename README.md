@@ -1,4 +1,4 @@
-# CXR-CNN
+# Chest X-ray Classification Using CNN
 Detect COVID-19 and Pneumonia using Chest X-ray and Convolutional Neural Network
 
 The recent outbreak of Coronavirus Disease, COVID-19 and pneumonia, the disease which cost 808,000 lives of children under age 5 have been witnessed to affect the lung structure which in turn disrupting the entire respiratory system. Therefore, early detection with high accuracy enables treatment to be given early to keep the condition under controlled.
