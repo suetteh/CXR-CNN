@@ -2,13 +2,14 @@
 
 The recent outbreak of Coronavirus Disease, COVID-19 has caused millions dealth globally since the occurence in early 2020. Besides COVID-19, penumonia is also a known respiratory disease with high mortality rate. In 2017, pneumonia has taken more than 808,000 lives of children under age 5. These diseases share the similarity which is that they affect the lung structure causing the disruptions of the entire respiratory system. Therefore, early detection with high accuracy is crucial to enable early treatment be given. 
 
-This study explored on the performance of three variations of Convolutional Neural Network (CNN) models: standard CNN, Separable CNN and Grouped CNN in classifying chest-X-ray to normal, COVID-19 and viral pneumonia classes. 
+This study explored on the performance of three variations of Convolutional Neural Network (CNN) models: standard CNN, Separable CNN and Grouped CNN in classifying chest-X-ray to normal, COVID-19 and viral pneumonia classes.  
 
 ### Challenges
 It was observed that after training the models for 30 epochs respectively, the base models achieved 100% accuracy. However, these models failed to generalize on unseen data, presented an overfitting characteristic. Regularization techniques including dropout and batch normalization were applied to overcome this issue. 
 
-### Library Utilized
-keras, tensorflow, numpy
+### Tools Utilized
+Computer vision and image processing techniques were applied in this project.
+library: keras, tensorflow, numpy, matplotlib, seaborn, imageio, cv2
 
 ### Data Source
 The dataset used in this study is from the [COVID-19 Chest X-ray Database] (https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database). This database was created by a team of researchers from Qatar University (Doha, Qatar) and the University of Dhaka (Bangladesh) in collaboration with medical doctors from Pakistan and Malaysia.
