@@ -24,7 +24,12 @@ The results of the [standard CNN](https://github.com/suetteh/CXR-CNN/blob/main/S
 Based on the model performance on test data, it is observed that the models struggle to differentiate normal and COVID-19 CXR. Thus, additional preprocessing step such as heatmap generation on CXR could be performed before feeding the images to the model. By highlighting the lung structure, the difference in pixels could be more vivid for the model to detect. 
 
 ![image](https://github.com/suetteh/Chest-X-ray-Classification/assets/65590665/5b9a67ee-5145-4f8e-a56c-d9ab72cc2962)
+
 figure: Sample final heatmaps of COVID-19 CXR with confidence scores (Kusakunniran, 2021).
 
 ### Concolusion:
 Separable CNN showed the best performance, 89.36% accuracy, 0.3071 loss, 0.9704 AUC, macro average 0.89 precision, 0.9 recall and 0.9 f1-score.
+
+### Reference:
+Kusakunniran, W. K. (2021). COVID-19 detection and heatmap generation in chest x-ray images. J Med Imaging (Bellingham).
+
