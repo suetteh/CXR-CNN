@@ -16,8 +16,8 @@ The dataset used in this study is from the [COVID-19 Chest X-ray Database] (http
 ### Data Preprocessing
 Data pre-processing technique applied include cropping image to remove noises, data augmentation on class pneumonia training data to ensure equal amount of data is available tor training in all classes. Each base model was evaluated by comparing the accuracy and loss of training and validation data. Regularization was then performed to each base model to resolve overfitting and evaluated on test data. Metrics used for model performance evaluations include accuracy, loss, AUC, precision, recall and f1-score.
 
-### Results/ Visualization
-
+### Results Evaluation
+To evaluate the fitness of model, the accuracy, loss and AUC of each model was compared between the training and validation data. Furthermore, upon model applying regularization technique on the base model, [the macro average precision, recall and f1-score were then evaluated on the test data](https://github.com/suetteh/Chest-X-ray-Classification/blob/main/Model%20Performance%20Comparison.pdf). 
 
 ### Possible Improvement
 Based on the model performance on test data, it is observed that the models struggle to differentiate normal and COVID-19 CXR. Thus, additional preprocessing step such as heatmap generation on CXR could be performed before feeding the images to the model. By highlighting the lung structure, the difference in pixels could be more vivid for the model to detect. 
