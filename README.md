@@ -8,6 +8,7 @@ This study explored on the performance of three variations of Convolutional Neur
 It was observed that after training the models for 30 epochs respectively, the base models achieved 100% accuracy. However, these models failed to generalize on unseen data, presented an overfitting characteristic. Regularization techniques including dropout and batch normalization were applied to overcome this issue. 
 
 ### Tools Utilized
+This project was completed using python.
 Computer vision and image processing techniques were applied in this project.
 library: keras, tensorflow, numpy, matplotlib, seaborn, imageio, cv2
 
